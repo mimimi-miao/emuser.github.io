@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张同学 - 个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">张同学</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#projects">项目经验</a></li>
+                <li><a href="#skills">技能清单</a></li>
+                <li><a href="#resume">简历</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">致力于构建高效、可扩展的分布式系统</h1>
+            <p class="hero-subtitle">全栈开发者，专注用户体验与后端逻辑的完美结合</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">查看项目</a>
+                <a href="#contact" class="btn btn-secondary">联系我</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>具备极强的自驱力与快速学习能力，能在一周内掌握并应用新技术栈。</p>
+                    <p>擅长逻辑分析，享受从0到1解决复杂技术挑战的过程。</p>
+                    <p>拥有良好的跨团队沟通能力，曾多次在校级项目中担任核心开发或协调角色。</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">[个人照片]</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">教育背景</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-date">2022 - 2026</div>
+                    <div class="education-content">
+                        <h3>XX大学 - 计算机科学与技术专业</h3>
+                        <p>学分绩点排名前5%，连续两年获得校级一等奖学金</p>
+                        <p>核心专业课（数据结构、算法、操作系统）平均成绩95+</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-date">2024 - 2025</div>
+                    <div class="education-content">
+                        <h3>实验室研究经历</h3>
+                        <p>在实验室参与XX课题研究，负责数据预处理与模型初步验证工作</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">项目经验</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>分布式电商系统</h3>
+                    <p>主导了基于Spring Boot的后端架构设计，通过Redis缓存优化使系统并发处理能力提升了40%。</p>
+                    <div class="project-tech">Spring Boot, Redis, MySQL</div>
+                </div>
+                <div class="project-card">
+                    <h3>智能数据看板</h3>
+                    <p>利用Vue3和TypeScript开发了响应式管理后台，实现了多维度数据看板的实时动态展示。</p>
+                    <div class="project-tech">Vue3, TypeScript, ECharts</div>
+                </div>
+                <div class="project-card">
+                    <h3>图像识别系统</h3>
+                    <p>实现并对比了多种CNN模型，在XX数据集上达到了98.5%的识别准确率。</p>
+                    <div class="project-tech">Python, TensorFlow, OpenCV</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技能清单</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>编程语言</h3>
+                    <ul>
+                        <li>Java (JVM调优)</li>
+                        <li>Go (并发编程)</li>
+                        <li>Python (数据科学生态)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>框架与中间件</h3>
+                    <ul>
+                        <li>Spring Cloud</li>
+                        <li>React</li>
+                        <li>MySQL (索引优化)</li>
+                        <li>Docker & Kubernetes</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>软技能</h3>
+                    <ul>
+                        <li>技术文档撰写 (Markdown/LaTeX)</li>
+                        <li>敏捷开发流程 (Scrum)</li>
+                        <li>中英文双语协作</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">简历</h2>
+            <div class="resume-content">
+                <p>查看我的完整简历，了解更多详细信息</p>
+                <a href="./resume.pdf" class="btn btn-primary" target="_blank">下载简历</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系方式</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>邮箱</h3>
+                        <p>zhang.student@email.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>GitHub</h3>
+                        <p>github.com/zhangstudent</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/zhangstudent</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 张同学. 保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+</html>
